@@ -431,14 +431,6 @@ public class Main {
                         }
                     }
                 }
-                if (profil.equals("profil ?")) {
-                    out.println("liste des profils :");
-                    out.println(" ");
-                    out.println("Christopher");
-                    out.println("save");
-                    out.println("algo");
-                    out.println("jeux");
-                }
                 if (profil.equals("save")) {
                     out.println("ici toute les sauvegardes des codes sont stockés donc tu ne peux y accéder par la console .");
                     if (numero_ex == 2) {
@@ -955,6 +947,15 @@ public class Main {
                         }
                     }
                 }
+                if (profil.equals("profil ?")) {
+                    out.println("liste des profils :");
+                    out.println(" ");
+                    out.println("Christopher");
+                    out.println("save");
+                    out.println("algo");
+                    out.println("jeux");
+                }
+
             }
         }
     }
